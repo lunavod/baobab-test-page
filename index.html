@@ -1,0 +1,35 @@
+<html>
+	<head>
+		<title>Baobab test!</title>
+		<meta charset="UTF-8" />
+	</head>
+	<body>
+		<!-- Counter: <span id="count">0</span> <button id="trigger">+1</button> -->
+		<h2>Set, unset:</h2>
+		<div class="input_set">
+			<input id="set_path" type="text" placeholder="Path" /><input id="set_value" type="text" placeholder="Value" /><button id="set">Set</button><button id="unset">Unset</button>
+		</div>
+		<h2>Push, unshift, pop, shift, concat, splice</h2>
+		<pre id="array"></pre>
+		<div class="input_set">
+				<input id="add" type="text" placeholder="New item" /><button id="unshift">Unshift</button><button id="push">Push</button>
+		</div>
+		<div class="input_set">
+			<button id="shift">Shift</button><button id="pop">Pop</button>
+		</div>
+		<div class="input_set">
+			<input id="concat_val" type="text" placeholder="JSON array" /><button id="concat">Concat</button>
+		</div>
+		<div class="input_set">
+			<input id="index" type="number" placeholder="Index" /><input id="deleteNum" type="number" placeholder="Delete count" /><input id="newItems" type="text" placeholder="New items(array)" /><button id="splice">Splice</button>
+		</div>
+		<div class="input_set">
+			<input id="n" type="number" placeholder="N" /><button id="apply">Apply +N</button>
+		</div>
+		<h2>Merge, deepMerge</h2>
+		<div class="input_set">
+			<input id="merge_val" type="text" placeholder="Object for merge" /><button id="merge">Merge</button><button id="deepMerge">deepMerge</button>
+		</div>
+	</body>
+	<script src="dist/main.js"></script>
+</html>
